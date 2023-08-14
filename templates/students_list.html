@@ -1,0 +1,27 @@
+<style>
+    table, th, td {
+      border:1px solid black;
+      border-collapse: collapse;
+    }
+    </style>
+    
+
+<h3> Student Table</h3>
+<table width="100%">
+    <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Roll_Number</th>
+      </tr>
+
+
+{% for x in students %}
+<tr>
+   <td> {{ x.first_name }}  </td>
+
+  <td>  {{ x.last_name }}</td>>
+    
+   <td> {{ x.roll_number }}</td>
+</tr>
+{% endfor %} 
+</table>
