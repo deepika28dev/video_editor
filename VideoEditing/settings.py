@@ -145,35 +145,14 @@ AUTH_USER_MODEL = 'VideoEditingApp.User'
 
 
 
-# EMAIL_BACKEND="django.core.mail.backends.smtp.EmailBackend"
-# EMAIL_HOST = 'smtp.gmail.com'
-# EMAIL_USE_TLS = True
-# EMAIL_HOST_USER="servicetest@remitassure.com"
-# EMAIL_HOST_PASSWORD="Shitan23"
-# # INCOMING_MAIL_SERVER="australia1.rebel.com"
-# # OUTGOING_MAIL_SERVER="australia1.rebel.com"
-# EMAIL_PORT = 465
-# SUPPORTED_INCOMING_MAIL_PROTOCOLS="IMAP (993), POP (995)"
-# SUPPORTED_OUTGOING_MAIL_PROTOCOLS="SMTP(465)"
-# INCOMING_ENCRYPTION="SSL"
-# OUTGOING_ENCRYPTION="SSL"
 
-
-# EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-# SERVER = "australia1.rebel.com"
-# EMAIL_HOST_USER = "servicetest@remitassure.com"
-# EMAIL_HOST_PASSWORD = "Shitan23#"
-# PORT = 465
-# EMAIL_USE_SSL= True
-# # EMAIL_USE_TLS= False
-# SMTP_ENCRYPTION="STARTTLS"
 
 #Email Configration
 EMAIL_BACKEND="django.core.mail.backends.smtp.EmailBackend"
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587 #465#
-EMAIL_HOST_USER = "deepika@codenomad.net"
-EMAIL_HOST_PASSWORD = "199528october"
+EMAIL_HOST_USER = ""
+EMAIL_HOST_PASSWORD = ""
 EMAIL_USE_TLS = True
 PASSWORD_RESET_TIMEOUT= 172800  # In hours 48
 
